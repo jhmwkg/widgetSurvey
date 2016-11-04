@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    <title>Customer Satisfaction Survey</title>
+	<!--This example creates a survey-style web site.
+	-->
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="styles.css" rel="stylesheet">
+
+	
+</head>	
+
+
+<body>
+
+<div id="quQuality" class="quality question">
+How would you rate your quality of service?
+</div>
+
+<div id= class="quality answer">
+<input type="radio" name="quality" class="rad"/>Outstanding
+<input type="radio" name="quality" class="rad"/>Good
+<input type="radio" name="quality" class="rad"/>Fair
+<input type="radio" name="quality" class="rad"/>Poor
+<input type="radio" name="quality" class="rad"/>Awful
+</div>
+
+<br/>
+
+<div class="question">
+How would you rate your speed of service?
+</div>
+
+<div class="answer">
+<input type="radio" name="speed"/>Quick
+<input type="radio" name="speed"/>Average
+<input type="radio" name="speed"/>Slow
+</div>
+
+<br/>
+
+<div class="question">
+Would you recommend our service to someone you know?
+</div>
+
+<div class="answer">
+<input type="radio" name="recommend"/>Absolutely
+<input type="radio" name="recommend"/>Maybe
+<input type="radio" name="recommend"/>Never
+</div>
+
+<br/>
+
+<div class="question">
+Could you provide more details about your experience?
+</div>
+
+<textarea></textarea>
+
+<br/><br/>
+
+<button id="btnSubmit">Submit Survey</button>
+
+<!-- This div will be hidden until the submission fails. -->
+<div id="warning">
+Please fill in options marked with red.
+</div>
+
+</body>
+
+	<script type="text/javascript" src="script.js"></script>
+
+</html>
