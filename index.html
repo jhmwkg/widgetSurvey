@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <title>Customer Satisfaction Survey</title>
+	<!--This example creates a survey-style web site.
+	-->
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="styles.css" rel="stylesheet">
+
+	
+</head>	
+
+
+<body>
+
+<div id="quQualit" class="qualit question">
+How would you rate your quality of service?
+</div>
+
+<div id="anQualit" class="qualit answer">
+<input type="radio" name="quality" class="rad"/>Good
+<input type="radio" name="quality" class="rad"/>Fair
+<input type="radio" name="quality" class="rad"/>Poor
+</div>
+
+
+<div id="btnSubmit">Submit Survey</div>
+
+<!-- This div will be hidden until the submission fails. -->
+<div id="bad">
+Please finish survey...
+</div>
+
+<div id="good">
+Thanks for your input!
+</div>
+
+</body>
+		<script type="text/javascript" src="script.js"></script>
+
+</html>
